@@ -261,7 +261,6 @@
   .project .tech-footer .tags { display: flex; gap: 1.5mm; flex-wrap: wrap; }
   .project .tech-footer .tag { background: #f3f4f6; color: var(--mid); padding: 0.4mm 1.8mm; border-radius: 1mm; font-size: 7pt; }
   .project .tech-footer .github { font-size: 7pt; color: var(--mid); }
-  .project .tech-footer .github a { color: var(--mid); text-decoration: none; }
 
   /* ====== COMPACT SECTIONS ====== */
   .compact-item { margin-bottom: 1.5mm; }
@@ -332,19 +331,8 @@
     content: " \2197";
     font-size: 6pt;
   }
-  .project .tech-footer .github a::after {
-    content: " \2197";
-    font-size: 6pt;
-  }
-  .compact-meta a { color: var(--mid); text-decoration: none; }
-  .compact-meta a::after {
-    content: " \2197";
-    font-size: 6pt;
-  }
-  .qr-label a::after {
-    content: " \2197";
-    font-size: 6pt;
-  }
+  a { color: inherit; text-decoration: none; }
+  a::after { content: " \2197"; font-size: 6pt; }
   .qr-footer .qr-text a::after {
     content: " \2197";
     font-size: 6pt;
@@ -451,7 +439,7 @@
     <div class="meta">2025.10~2025.11 (3주) | 3명→2명 | 팀장</div>
   </div>
   <div class="project-role">시스템 아키텍처 설계, 에이전트 4종 설계·구현, DeepEval 평가, Langfuse 추적, 도메인 자문</div>
-  <div class="project-validation">현업 검증: KREMA(190개 회원사) 도메인 전문가 검증 통과 → 제10회 부동산산업의날 부스 전시 → 한국경제 보도자료 게재</div>
+  <div class="project-validation"><a href="https://root-waterlily-68c.notion.site/ALL_FOR_ONE-31daa1b4174880ebbfd5dc885ca69ee7?source=copy_link">현업 검증: KREMA(190개 회원사) 도메인 전문가 검증 통과 → 제10회 부동산산업의날 부스 전시 → 한국경제 보도자료 게재</a></div>
   <ul>
     <li><strong>7개 AI Agent x 23개 데이터소스</strong> 병렬 분석 → 기존 1~2주 소요 보고서를 <span class="metric">30분에 자동 생성</span>, PDF 보고서 + 출처 원본 데이터 이메일 발송</li>
     <li><strong>ReAct + Reflection 자율 검증 체계</strong>:<br> LangGraph StateGraph 기반 동적 분기
@@ -482,7 +470,7 @@
     <div class="meta">2025.11~2026.01 (2개월) | 6명 | 팀장</div>
   </div>
   <div class="project-role">NPC AI Agent 설계·구현(USER↔NPC / NPC↔NPC), DB 구축, DeepEval 평가, Langfuse 추적, TTS, 최종 발표</div>
-  <div class="project-validation">현업 기업 심사위원 평가 <span class="quote">"AI를 제거하면 핵심 재미가 사라진다"</span> — 기획→프로토→알파→베타→최종 5단계 검증 통과</div>
+  <div class="project-validation"><a href="https://root-waterlily-68c.notion.site/301aa1b417488054b5f1c6c7b8d56c20?source=copy_link">현업 기업 심사위원 평가 <span class="quote">"AI를 제거하면 핵심 재미가 사라진다"</span> — 기획→프로토→알파→베타→최종 5단계 검증 통과</a></div>
   <ul>
     <li><strong>Mem0 한계 발견 → SPO 구조 장기기억 자체 구축</strong>:<br> speaker/subject/content_type/importance 메타데이터 명시적 저장 → NPC 할루시네이션(화자 혼동) 제거</li>
     <li><strong>4요소 하이브리드 검색</strong> (Recency 0.15 + Importance 0.15 + Relevance 0.50 + Keyword 0.20): <br>pgvector + PGroonga Raw SQL 직접 제어 — "과일 좋아해?"에 과거 언급한 "사과" 회상 가능</li>
@@ -570,11 +558,11 @@
 <div class="section">
   <div class="section-title">REPUTATION</div>
   <div class="compact-item">
-    <div class="compact-title">운영진 공식 추천서 <span class="compact-meta">— 전체 기수 중 유일 | 작성: 김아름 (원티드랩 / POTENUP 매니저)</span></div>
+    <div class="compact-title"><span><a href="https://www.notion.so/AI-AGENT-2d9aa1b4174880489329e83e477efdb3?source=copy_link#301aa1b4174880669d2ceca271f05ec0">운영진 공식 추천서<span class="compact-meta">— 전체 기수 중 유일 | 작성: 김아름 (원티드랩 / POTENUP 매니저)</a></span></div>
     <div class="rep-quote">"화인님은 근면성실과 몰입력, 두 단어로 표현할 수 있는 분입니다. 기술을 빠르게 습득하는 능력과 이를 프로젝트에 적용해 실질적인 성과로 연결하는 역량을 기준으로 가장 뚜렷한 성장 과정을 보여주신 분이었습니다. 기회가 있다면 반드시 함께 일하고 싶은 동료로 자신 있게 추천드립니다."</div>
   </div>
   <div class="compact-item">
-    <div class="compact-title">동료 투표 '인간 포텐업' <span class="compact-meta">— 4회 중 2회 최다 득표 (1회차: 솔선수범의 아이콘상 / 4회차: 인간 포텐업)</span></div>
+    <div class="compact-title"><span><a href="https://www.notion.so/AI-AGENT-2d9aa1b4174880489329e83e477efdb3?source=copy_link#301aa1b417488032b68ae8b30436698c">동료 투표 '인간 포텐업' <span class="compact-meta">— 4회 중 2회 최다 득표 (1회차: 솔선수범의 아이콘상 / 4회차: 인간 포텐업)</a></span></div>
     <div class="rep-quote">"전체를 위해 헌신하며 반장의 역할을 120% 수행" · "본인의 일을 끝내지 않는 이상 잠을 자지 않는 모습에 책임감이 강하다고 느꼈습니다"</div>
   </div>
 </div>
@@ -582,7 +570,7 @@
 <!-- BUSINESS EXPERIENCE -->
 <div class="section">
   <div class="section-title">BUSINESS EXPERIENCE</div>
-  <div class="career-item"><span class="company">한국자산매입</span> | 부동산 마케팅 기획 <span class="period">2024.05–2025.02</span> — 주간 노출수 <span class="metric">60배 성장(5만→300만)</span>, 클릭수 8배</div>
+  <div class="career-item"><span class="company">한국자산매입</span> | 부동산 마케팅 기획 <span class="period">2024.05–2025.02</span> — <a href="https://root-waterlily-68c.notion.site/7-5-300-200-1600-300aa1b4174880fa8b40c7ff517c035c?source=copy_link">주간 노출수 <span class="metric">60배 성장(5만→300만)</span>, 클릭수 8배</a></div>
   <div class="career-item"><span class="company">(주)더제이엠</span> | 부동산 분양상담 <span class="period">2023.12–2024.03</span> — 200명 조직 내 <span class="metric">최초 상가 계약</span></div>
   <div class="career-item"><span class="company">유로메디케어</span> | 의료기기 기술영업 <span class="period">2021.09–2023.03</span> — 주요 <span class="metric">6개 대학병원 최단기 영업허가</span></div>
 </div>
@@ -592,11 +580,11 @@
   <div class="section-title">EDUCATION</div>
   <div class="edu-item">
     <div><span class="edu-name">강서대학교 음악학과 (편입)</span> <span class="edu-date">2016.03 - 2020.02</span></div>
-    <div class="edu-detail">졸업학점 4.27/4.5 | 과수석 1회 · 수석 졸업 · 성적우수 장학금</div>
+    <div class="edu-detail"><a href="https://root-waterlily-68c.notion.site/300aa1b4174880909131dee90df04724?source=copy_link">졸업학점 4.27/4.5 | 과수석 1회 · 수석 졸업 · 성적우수 장학금</a></div>
   </div>
   <div class="edu-item">
     <div><span class="edu-name">원광대학교 생물환경화학과</span> <span class="edu-date">2012.03 - 2014.02</span></div>
-    <div class="edu-detail">학점 4.42/4.5 | 과수석 2회 · 성적우수 장학금</div>
+    <div class="edu-detail"><a href="https://root-waterlily-68c.notion.site/300aa1b4174880909131dee90df04724?source=copy_link">학점 4.42/4.5 | 과수석 2회 · 성적우수 장학금</a></div>
   </div>
   <div style="font-size:7.5pt; color:var(--dark); margin-top:1.5mm; padding-left:2mm;">
     생물화학 과수석 2회 → 음악 과수석·수석 졸업 → 부동산 200명 중 최초 계약 → 광고 노출 60배 → AI 부트캠프 우승 — <strong>5번의 분야 전환마다 매번 최상위 성과</strong>
